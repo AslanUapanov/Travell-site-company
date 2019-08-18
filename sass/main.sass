@@ -1,0 +1,931 @@
+@import "bourbon/bourbon"
+
+html.js .loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+body
+	font-family: "Raleway-Bold", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialiased
+	overflow-x: hidden
+	padding: 0
+	margin: 0
+ul
+	padding: 0
+	margin: 0
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+
+header
+	width: 100%
+	min-height: 644px
+	background-image: url('../img/header_bg.png')
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+.header_menu
+	font-family: 'Raleway-Bold', sans-serif
+	font-size: 13px
+	background-color: #fff
+	width: 100%
+	height: 80px
+	display: grid
+	grid-auto-flow: column
+	grid-auto-rows: 80px
+	grid-template-columns: 3fr 5fr 3fr
+	grid-row-gap: 0
+	grid-column-gap: 15px
+.logo
+	text-align: center
+	padding: 22px
+
+.navbar>ul
+	list-style-type: none
+.navbar>ul>li
+	display: inline-block
+	a
+		text-align: center
+		display: block
+		text-decoration: none
+		color: #37383a
+		text-transform: uppercase
+		padding: 20px 30px
+		margin: -5px 0px 0px 0px
+	a:hover
+		background-color: #fd5c08
+		color: #fff
+	a:active
+		background-color: #fd5c08
+		color: #fff
+	a:focus
+		background-color: #fd5c08
+		color: #fff
+
+.lang_search>ul
+	list-style-type: none
+.lang_search>ul>li
+	display: inline-block
+	a
+		text-align: center
+		display: block
+		text-decoration: none
+		color: #37383a
+		text-transform: uppercase
+		padding: 30px 35px
+		margin: -2px 0px 0px 0px
+	a:hover
+		background-color: #ededed
+	a:active
+		background-color: #ededed
+.active1
+	background-color: #fd5c08
+	color: #fff!important
+.header_info
+	display: grid
+	grid-auto-flow: column
+	grid-template-columns: 5fr 2fr 4fr
+	grid-template-rows: 315px
+	grid-row-gap: 0
+	grid-column-gap: 0
+	margin: 200px 0px 0px 70px
+.header_descr
+	color: #ffffff
+	line-height: 50px
+	h3
+		font-family: 'Raleway-Regular', sans-serif
+		font-size: 38px
+		padding: 0
+		margin: 0
+	h2
+		font-family: 'Raleway-ExtraBold', sans-serif
+		text-transform: uppercase
+		font-size: 100px
+		padding: 0
+		margin: 0
+		line-height: 80px
+	p
+		font-family: 'Raleway-Bold', sans-serif
+		font-size: 14px
+		padding: 0
+		margin: 0
+		line-height: 24px
+
+.price_menu
+	display: grid
+	grid-template-rows: 75px 125px 75px
+	grid-row-gap: 0
+	grid-column-gap: 0
+.price_menu_head
+	position: relative
+	display: grid
+	grid-auto-flow: column
+	grid-template-columns: 70px 70px 70px
+	grid-row-gap: 0
+	grid-column-gap: 0
+	align-self: center
+	justify-self: center
+.price_menu_descr
+	display: grid
+	grid-template-columns: 210px
+	align-self: center
+	justify-self: center
+	line-height: 90px
+	background-color: #fff
+.price_start
+	font-family: 'Raleway-Regular', sans-serif
+	color: #3f3e41
+	font-size: 16px
+	text-transform: uppercase
+	padding: 10px 0px 0px 35px
+.euro
+	font-family: 'Raleway-ExtraBold', sans-serif
+	font-size: 90px
+	color: #fd5c08
+	margin: -25px 0px 25px 10px
+.price_menu_foot
+	background-color: #3f3e41
+	display: grid
+	grid-template-columns: 210px
+	align-self: center
+	justify-self: center
+	font-family: 'Raleway-Bold', sans-serif
+	color: #ffffff
+	text-transform: uppercase
+	font-size: 14px
+	text-align: center
+	padding: 20px 0px
+.personally
+	width: 100%
+	background-image: url("../img/World_map_bg.png")
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	min-height: 644px
+.personally_descr
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 0.75fr 5fr 5fr 0.75fr
+	padding-top: 60px
+	align-self: center
+	justify-self: center
+.personally_descr_h2
+	line-height: 60px
+	h2
+		font-family: 'Raleway-ExtraBold', sans-serif
+		font-weight: heavy
+		font-size: 80px
+		color: #fd5c08
+		text-transform: uppercase
+		padding: 0
+		margin: 0
+	h3
+		font-family: 'Raleway-Regular', sans-serif
+		font-size: 34px
+		font-weight: light
+		color: #3f3e41
+		text-transform: uppercase
+		padding: 0
+		margin: 0
+.personally_descr_p
+	p
+		font-family: 'Raleway-Bold', sans-serif
+		color: #3f3e41
+		font-size: 19px
+		padding: 0
+		margin: 0
+.personally_block
+	display: grid
+	grid-template-rows: 3fr 3fr
+	grid-row-gap: 0
+	grid-column-gap: 0
+	margin: 70px 0px 0px 0px
+	grid-auto-flow: columns
+.block1, .block2
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 1fr 3fr 3fr 3fr 1fr
+	grid-row-gap: 0
+	grid-column-gap: 0
+.travel_block1
+	background-image: url("../img/per1.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_block2
+	background-image: url("../img/per2.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_block3
+	background-image: url("../img/per3.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_block4
+	background-image: url("../img/per4.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_block5
+	background-image: url("../img/per5.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_block6
+	background-image: url("../img/per6.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+
+.travel_block
+	display: block
+	text-transform: uppercase
+	color: #fff
+	h2
+		display: block
+		padding: 30px
+		font-family: 'Raleway-ExtraBold', sans-serif
+		font-weight: heavy
+		margin: -65px 0px
+		font-size: 42px
+	span
+		display: inline-block
+		margin: 0
+		padding: 30px
+		font-family: 'Raleway-Regular', sans-serif
+		font-weight: light
+		font-size: 16px
+.btn
+	display: grid
+	grid-template-columns: 4.5fr 4.5fr 2fr
+	grid-row-gap: 0
+	grid-column-gap: 0
+.btn_view
+	padding: 10px 10px
+	line-height: 6
+	text-transform: uppercase
+	font-family: 'Raleway-Bold', sans-serif
+	font-size: 14px
+	color: #fff
+	border: 1px solid #545357
+	background-color: #545357
+	text-decoration: none
+	img
+		margin-right: 15px
+.btn_view:hover
+	color: #fd5c08
+.hidden_descr_travel_block
+	display: block
+	position: absolute
+	height: 283px
+	margin-top: 25px
+	width: 390px
+	background-image: url("../img/travel_block_hover.png")
+	background-repeat: no-repeat
+	background-size: cover
+	opacity: 0
+	transition: all 0.5s
+	line-height: 40px
+	span
+		color: #fd5c08
+		font-family: 'Raleway-Regular', sans-serif
+		font-weight: light
+		font-size: 23px
+		padding: 0
+		margin: 30px 0px 0px 40px
+	h2
+		padding: 0px 40px
+		margin: 0
+		color: #3f3e41
+		font-family: 'Raleway-ExtraBold', sans-serif
+		font-weight: normal
+		font-size: 34px
+	a
+		text-decoration: none
+		text-transform: uppercase
+		color: #3f3e41
+		font-size: 14px
+		font-family: 'Raleway-Bold', sans-serif
+		margin: 30px 0px 0px 40px
+		img
+			margin-right: 10px
+	a:hover
+		color: #fd5c08
+.travel_block:hover .hidden_descr_travel_block
+	opacity: 1
+.africa
+	width: 100%
+	background-image: url("../img/africa_bg.png")
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	min-height: 644px
+	display: grid
+	grid-auto-flow: rows
+	grid-template-rows: 3fr 3fr
+	grid-row-gap: 100px
+	grid-column-gap: 0
+.africa_descr
+	padding-top: 60px
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 1fr 9fr 1fr
+	grid-row-gap: 0px
+	grid-column-gap: 0px
+.center_block_africa
+	text-align: center
+	color: #fff
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1)
+	span
+		font-family: "KaushanScript-Regular", serif
+		font-size: 30px
+		line-height: 3
+	h3
+		margin-top: 25px
+		line-height: 70px
+		padding: 0
+		margin: 0
+		font-family: 'Raleway-Regular', sans-serif
+		font-size: 38px
+		font-weight: 200
+	h2
+		line-height: 70px
+		font-family: 'Raleway-ExtraBold', sans-serif
+		font-size: 100px
+		font-weight: 800
+		text-transform: uppercase
+		padding: 0
+		margin: 0
+	p
+		font-family: 'Raleway-Bold', sans-serif
+		font-size: 19px
+		padding: 0
+		margin: 20px 65px
+.africa_menu
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 2fr 2fr 4fr 3fr
+	grid-row-gap: 0px
+	grid-column-gap: 0px
+.africa_price
+	min-width: 200px
+	height: 210px
+	background-color: #3f3e41
+	line-height: 1
+	h2
+		font-family: 'Raleway-ExtraBold', sans-serif
+		font-weight: heavy
+		font-size: 60px
+		color: #fd5c08
+		text-transform: uppercase
+		padding: 0
+		margin: 0px 0px 0px 30px
+	span
+		color: #ffffff
+		text-transform: uppercase
+		display: inline-block
+		margin: 110px 0px 0px 30px
+		padding: 0
+		font-family: 'Raleway-Regular', sans-serif
+		font-weight: light
+		font-size: 16px
+.kenya
+	width: 500px
+	height: 210px
+	background-color: #fff
+	opacity: 0.9
+	span
+		color: #fd5c08
+		text-transform: uppercase
+		font-family: 'Raleway-Regular', sans-serif
+		font-weight: 200
+		font-size: 30px
+	p
+		color: #3f3e41
+		line-height: 10px
+		font-family: 'Raleway-Regular', sans-serif
+		font-size: 16px
+	a
+		text-decoration: none
+		text-transform: uppercase
+		color: #3f3e41
+		font-size: 14px
+		font-family: 'Raleway-Bold', sans-serif
+		img
+			margin-right: 10px
+	a:hover
+		color: #fd5c08
+.kenya_descr
+	padding: 30px
+.african_man
+	margin: -50px 0px 0px -150px
+	position: relative
+.afr_div
+	margin: -95px 50px
+.north_america
+	background-image: url("../img/america_bg.png")
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	min-height: 644px
+	width: 100%
+	display: grid
+	grid-auto-flow: rows
+	grid-template-rows: 3fr 3fr
+.north_america_descr
+	display: grid
+	grid-auto-flow: columns
+	grid-row-gap: 0px
+	grid-column-gap: 0px
+	grid-template-columns: 1.5fr 8fr 1.5fr
+.north_america_head_descr
+	padding-top: 60px
+	line-height: 85px
+	z-index: 1
+	position: relative
+.north_america_head_descr>h3
+	margin: 0
+	padding: 0
+	font-size: 38px
+	color: #fd5c08
+	text-transform: uppercase
+	font-family: 'Raleway-Regular', sans-serif
+	font-weight: 100
+.north_america_head_descr>h2
+	margin: 0
+	padding: 0
+	text-transform: uppercase
+	color: #3f3e41
+	font-size: 90px
+	font-family: 'Raleway-Bold', sans-serif
+	font-weight: heavy
+.north_america_head_descr>p
+	margin: 0
+	padding: 0
+	padding: 20px 305px 0px 0px
+	line-height: 30px
+	font-size: 19px
+	font-family: 'Raleway-Bold', sans-serif
+	color: #3f3e41
+.american_block
+	display: grid
+	grid-template-rows: 3fr 3fr
+	grid-row-gap: 0
+	grid-column-gap: 0
+	margin: -145px 0px 0px 0px
+	grid-auto-flow: columns
+.block1, .block2
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 1fr 3fr 3fr 3fr 1fr
+	grid-row-gap: 0
+	grid-column-gap: 0
+.travel_american_block1
+	background-image: url("../img/Levels1.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_american_block2
+	background-image: url("../img/Levels2.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_american_block3
+	background-image: url("../img/Levels3.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_american_block4
+	background-image: url("../img/Levels4.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_american_block5
+	background-image: url("../img/Levels5.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+	
+.travel_american_block6
+	background-image: url("../img/Levels6.png")
+	background-repeat: no-repeat
+	background-size: contain
+	min-height: 390px
+	min-width: 390px
+
+.travel_american_block
+	display: block
+	text-transform: uppercase
+	color: #fff
+	h2
+		display: block
+		padding: 30px
+		font-family: 'Raleway-ExtraBold', sans-serif
+		font-weight: heavy
+		margin: -65px 0px
+		font-size: 42px
+	span
+		display: inline-block
+		margin: 0
+		padding: 30px
+		font-family: 'Raleway-Regular', sans-serif
+		font-weight: light
+		font-size: 16px
+.hidden_descr_travel_american_block
+	display: block
+	position: absolute
+	height: 283px
+	margin-top: 25px
+	width: 390px
+	background-image: url("../img/travel_block_hover.png")
+	background-repeat: no-repeat
+	background-size: cover
+	opacity: 0
+	transition: all 0.5s
+	line-height: 40px
+	span
+		color: #fd5c08
+		font-family: 'Raleway-Regular', sans-serif
+		font-weight: light
+		font-size: 23px
+		padding: 0
+		margin: 30px 0px 0px 40px
+	h2
+		padding: 0px 40px
+		margin: 0
+		color: #3f3e41
+		font-family: 'Raleway-ExtraBold', sans-serif
+		font-weight: normal
+		font-size: 34px
+	a
+		text-decoration: none
+		text-transform: uppercase
+		color: #3f3e41
+		font-size: 14px
+		font-family: 'Raleway-Bold', sans-serif
+		margin: 30px 0px 0px 40px
+		img
+			margin-right: 10px
+	a:hover
+		color: #fd5c08
+.travel_american_block:hover .hidden_descr_travel_american_block
+	opacity: 1
+.taiwan
+	background-image: url("../img/taiwan_bg.png")
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	min-height: 644px
+	width: 100%
+	display: grid
+	grid-auto-flow: rows
+	grid-template-rows: 3fr 3fr
+.head_taiwan_descr
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 2fr 9fr
+.long_jr
+	margin: 40px 0px 0px 0px
+	height: 275px
+	width: 275px
+	background-image: url("../img/Long_jr.png")
+	background-repeat: no-repeat
+	color: #fff
+	text-transform: uppercase
+	h2
+		padding: 0px 25px
+		line-height: 1
+		font-size: 38px
+		font-family: 'Raleway-ExtraBold', sans-serif
+	p
+		font-size: 12px
+		font-family: 'Raleway-Regular', sans-serif
+		font-weight: 100
+		line-height: 0px
+	h4
+		line-height: 0px
+		font-size: 16px
+		font-family: 'Raleway-Regular', sans-serif
+	h3
+		line-height: 0px
+		font-size: 23px
+		font-family: 'Raleway-Bold', sans-serif
+.long_jr_descr
+	padding: 5px 25px
+.taiwan_menu
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 5fr 3fr 2fr 1fr
+	grid-row-gap: 0px
+	grid-column-gap: 0px
+	margin: 75px 0px
+.taiwan_descr
+	padding: 0px 20px
+	line-height: 25px
+.taiwan_menu_descr
+	width: 400px
+	height: 200px
+	background-color: #fff
+	opacity: 0.9
+	h2
+		margin-top: 32px
+		font-size: 30px
+		font-weight: 100
+		font-family: 'Raleway-Regular', sans-serif
+		color: #fd5c08
+		text-transform: uppercase
+	p
+		font-size: 16px
+		font-family: 'Raleway-Regular', sans-serif
+		color: #3f3e41
+	a
+		text-decoration: none
+		font-size: 14px
+		font-family: 'Raleway-Bold', sans-serif
+		color: #3f3e41
+		text-transform: uppercase
+		img
+			margin-right: 10px
+	a:hover
+		color: #fd5c08
+.taiwan_price
+	background-color: #3f3e41
+	line-height: 1
+	min-width: 150px
+	height: 200px
+	img
+		margin: 55px 0px 15px 30px
+	h3
+		color: #ffffff
+		text-transform: uppercase
+		font-family: 'Raleway-Regular', sans-serif
+		font-size: 16px
+		font-weight: 100
+		margin: 20px 0px 0px 30px
+	h2
+		font-family: 'Raleway-ExtraBold', sans-serif
+		font-weight: 900
+		font-size: 60px
+		color: #fd5c08
+		text-transform: uppercase
+		margin: -40px 0px 0px 0px
+.final_section
+	background-image: url("../img/final_bg.png")
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	min-height: 644px
+	width: 100%
+	display: grid
+	grid-auto-flow: rows
+.final_descr
+	text-align: center
+	span
+		color: #3f3e41
+		font-size: 16px
+		font-weight: 700
+		font-family: 'Raleway-Bold', sans-serif
+		text-transform: uppercase
+	h2
+		color: #fd5c08
+		font-size: 80px
+		font-weight: 900
+		font-family: 'Raleway-ExtraBold', sans-serif
+		text-transform: uppercase
+		margin: 0px 0px -10px 0px
+		padding: 0
+	h3
+		color: #3f3e41
+		font-size: 34px
+		font-weight: 100
+		font-family: 'Raleway-Regular', sans-serif
+		text-transform: uppercase
+		margin: 0
+		padding: 0
+	p
+		color: #3f3e41
+		font-size: 14px
+		font-weight: 400
+		font-family: 'Raleway-SemiBold', sans-serif
+		margin: 0
+		padding: 20px 415px
+.mail_form
+	vertical-align: middle
+	display: inline
+.mail_form > input
+	border: none
+	background-color: #525053
+	padding: 9px 20px
+input::-webkit-input-placeholder
+	font-size: 16px
+	font-family: 'Raleway-Regular', sans-serif
+	font-weight: 100
+	color: #fff
+	text-align: center
+	display: inline-block
+button
+	border: 1px solid #fd5c08
+	padding: 8px 15px
+	background-color: #fd5c08
+	display: inline-block
+   	text-align: center
+	cursor: pointer
+button:hover
+    transform: scale(0.99);
+.final_section_nav
+	background-color: #ededed
+	width: 100%
+	height: 55px
+.last_minute_menu
+	overflow: hidden
+	height: auto
+	margin-top: -270px
+	background-color: #fff
+	display: none
+	position: absolute
+	list-style-type: none
+	z-index: 0
+	.last_minute_menu_li
+		padding: 0
+		margin: 0
+	.last_minute_menu_li>a
+		color: #1d1d1b
+		font-size: 14px
+	.last_minute_menu_li>a:hover
+		color: #fd5c08
+.final_section_nav_menu
+	position: relative
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 0.5fr 1fr 1fr 1fr 3fr 2fr 0.5fr 0.5fr
+	grid-row-gap: 0px
+	grid-column-gap: 0px
+	list-style-type: none
+	height: 55px
+	div
+		display: inline
+		align-self: center
+		justify-self: center
+.final_section_nav_menu_li
+	display: inline
+	align-self: center
+	justify-self: center
+	width: 100%
+	height: 55px
+	a
+		display: block
+		text-decoration: none
+		font-size: 14px
+		font-family: 'Raleway-Bold', sans-serif
+		color: #3f3e41
+		text-transform: uppercase
+		text-align: center
+		padding: 16px
+	a:hover
+		display: block
+		color: #fff
+		margin-top: 9px
+.final_section_nav_menu_li:hover
+	background-image: url("../img/bgc_final_menu.png")
+	background-repeat: no-repeat
+	background-size: cover
+	height: 64px
+	width: 100%
+	margin-top: -10px
+.check_it_all
+	cursor: pointer
+.check_it_all>img
+	margin-right: 20px
+.check_it_all:hover
+	color: #fd5c08
+.prev
+	background-image: url("../img/prev_bg.png")
+	background-repeat: no-repeat
+	height: 55px
+	width: 100%
+	cursor: pointer
+.next
+	background-image: url("../img/next_bg.png")
+	background-repeat: no-repeat
+	height: 55px
+	width: 100%
+	cursor: pointer
+	margin-left: -22px
+.partners
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+	grid-row-gap: 0px
+	grid-column-gap: 0px
+	background-color: #3f3e41
+	height: 140px
+	width: 100%
+.partners_items
+	align-self: center
+	justify-self: center
+.skidka20
+	position: absolute
+	margin: -8px -8px
+.skidka25
+	position: absolute
+	margin: -8px -8px
+footer
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 1fr 2fr 3fr 4fr 1fr
+	grid-row-gap: 0px
+	grid-column-gap: 0px
+	background-color: #fd5c08
+	height: 210px
+	width: 100%
+.footer_icon
+	margin-top: 80px
+.footer_icon_item
+	display: grid
+	grid-auto-flow: columns
+	grid-template-columns: 1fr 1fr 1fr
+	grid-row-gap: 0px
+	grid-column-gap: 0px
+.footer_icon>p
+	font-size: 10px
+	font-weight: 200
+	text-transform: uppercase
+	color: #ffffff
+	font-family: 'Oxygen-Regular', sans-serif
+.footer_descr
+	margin-top: 65px
+	color: #fff
+	text-align: right
+	p
+		font-family: 'Oxygen-Regular', sans-serif
+		text-transform: uppercase
+		font-size: 10px
+.crafted
+	font-size: 12px
+	font-family: "Raleway-Regular", sans-serif
+	font-weight: light
+.EA_bold
+	font-size: 12px
+	font-family: "Raleway-Bold", sans-serif
+.facebook:hover
+	transform: scale(.90)
+	transition: all .05s ease-in
+.pinterest:hover
+	transform: scale(.90)
+	transition: all .05s ease-in
+.twitter:hover
+	transform: scale(.90)
+	transition: all .05s ease-in

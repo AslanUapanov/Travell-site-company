@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Oxygen-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oxygen/Oxygen-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Oxygen/Oxygen-Bold.woff") format("woff"), url("../fonts/Oxygen/Oxygen-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Oxygen-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oxygen/Oxygen-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Oxygen/Oxygen-Bold.woff") format("woff"), url("../fonts/Oxygen/Oxygen-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Oxygen-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oxygen/Oxygen-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Oxygen/Oxygen-Bold.woff") format("woff"), url("../fonts/Oxygen/Oxygen-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Raleway-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Raleway/Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Raleway-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Raleway/Raleway-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-ExtraBold.woff") format("woff"), url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Raleway-SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Raleway/Raleway-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-SemiBold.woff") format("woff"), url("../fonts/Raleway/Raleway-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "KaushanScript-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Kaushan_Script/KaushanScript-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Kaushan_Script/KaushanScript-Regular.woff") format("woff"), url("../fonts/Kaushan_Script/KaushanScript-Regular.ttf") format("truetype"); }

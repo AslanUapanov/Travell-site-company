@@ -1,0 +1,487 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header_info{
+		margin: 200px 0px 0px 0px;
+	}
+	.personally_descr{
+		grid-template-rows: 0fr 2fr 1fr 0fr;
+	}
+	.personally_block, .american_block{
+		grid-template-columns: 2fr 2fr;
+		grid-template-rows: 0fr 0fr;
+	}
+	.block1, .block2{
+		grid-template-columns: 0;
+		grid-template-rows: 1fr;
+	}
+	.north_america_head_descr{
+		padding: 0;
+	}
+	.header_menu{
+		grid-template-columns: 2fr 2fr;
+		grid-auto-rows: 0px;
+		height: 60px;
+		font-size: 9px;
+	}
+	.logo>img{
+		width: 80px;
+		padding: 0px;
+	}
+	.navbar_menu{
+		display: none;
+	}
+	.lang_search{
+		display: inline;
+	}
+	.lang_search > ul > li a{
+		padding: 21px 15px;
+	}
+	.header_info{
+		grid-template-columns: 0fr;
+		grid-template-rows: 3fr 0fr 3fr;
+		margin: 30px 0px 0px 0px;
+	}
+	.header_descr{
+		
+	}
+	.header_descr h3{
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 20px;
+	}
+	.header_descr h2{
+		line-height: 50px;
+		font-size: 60px;
+	}
+	.header_descr p{
+		line-height: 16px;
+		margin: 15px 0px;
+	}
+	.personally_descr{
+		grid-template-columns: 0fr;
+		grid-template-rows: 0fr 1fr 1fr 0fr;
+	}
+	.personally_descr_h2{
+		line-height: 0;
+	}
+	.personally_descr_h2>h2{
+		font-size: 50px;
+	}
+	.personally_descr_h2>h3{
+		font-size: 28px;
+		margin-top: 50px;
+		line-height: 30px;
+	}
+	.personally_block{
+		grid-template-columns: 1fr;
+		grid-template-rows: 0fr 0fr;
+	}
+	.travel_block, .travel_block1, .travel_block2, .travel_block3, .travel_block4, .travel_block5, .travel_block6{
+		width: 320px;
+		height: 320px;
+		min-width: 0px;
+		min-height: 0px;
+	}
+	.btn{
+		grid-template-columns: none;
+		margin: -10px 25px;
+	}
+	.hidden_descr_travel_block{
+		font-size: 30px;
+	}
+	.africa{
+		grid-template-rows: none;
+		padding: 0;
+	}
+	.africa_descr{
+		grid-template-columns: 0fr 0fr 0fr;
+	}
+	.center_block_africa{
+		text-align: left;
+	}
+	.center_block_africa>h2{
+		line-height: 45px;
+		font-size: 50px;
+	}
+	.center_block_africa>p{
+		margin: 0px;
+		margin-top:20px;
+	}
+	.africa_menu{
+		grid-template-columns: none;
+	}
+	.africa_price{
+		width: 320px;
+		height: 130px;
+	}
+	.africa_price>span{
+		margin: 30px 0px 0px 30px;
+	}
+	.kenya_descr{
+		padding: 0;
+	}
+	.african_man{
+		margin: 0;
+	}
+	.african_man>img{
+		width: 0;
+	}
+	.north_america_head_descr>h2{
+		font-size: 52px;
+		line-height: 45px;
+	}
+	.north_america_head_descr>p{
+		padding: 30px 0px 0px 0px;
+	}
+	.american_block{
+		grid-template-columns: 1fr;
+		grid-template-rows: 0fr 0fr;
+	}
+	.travel_american_block, .travel_american_block1, .travel_american_block2, .travel_american_block3, .travel_american_block4, .travel_american_block5, .travel_american_block6{
+		width: 320px;
+		height: 320px;
+		min-width: 0px;
+		min-height: 0px;
+	}
+	.hidden_descr_travel_american_block{
+		font-size: 30px;
+	}
+	.north_america_descr{
+		grid-template-columns: 0fr 2fr 0fr;
+		margin-bottom: 170px;
+	}
+	.north_america{
+		grid-template-rows: none;
+	}
+	.head_taiwan_descr{
+		grid-template-columns: none;
+	}
+	.taiwan_menu{
+		margin: 0;
+		grid-template-columns: none;
+	}
+	.taiwan_menu_descr{
+		width: 320px;
+		height: 240px;
+	}
+	.final_section_nav{
+		width: 320px;
+	}
+	.final_section_nav_menu{
+		grid-template-columns: 1fr 1fr 1fr;
+		width: 320px;
+		height: 60px;
+	}
+	.final_section_nav_menu>div{
+		display: none;
+	}
+	.final_section_nav_menu_li>a{
+		padding: 7px;
+	}
+	.final_descr{
+		text-align: left;
+	}
+	.taiwan_price{
+		margin-bottom: 100px;
+	}
+	.final_descr>p{
+		padding: 0;
+		margin: 15px 15px;
+	}
+	.final_descr>h2{
+		font-size: 68px;
+		line-height: 72px;
+		margin: 30px 0px;
+	}
+	.final_section{
+		grid-template-rows: 0.2fr 1fr;
+	}
+	.mail_form{
+		margin: 35px;
+	}
+	.partners{
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.logotip_partners{
+		width: 65px;
+	}
+	footer{
+		min-height: 300px;
+	}
+	.hidden_descr_travel_block, .hidden_descr_travel_american_block{
+		width: 320px;
+	}
+	.kenya{
+		width: 320px;
+	}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.header_menu{
+		grid-template-columns: 2fr 2fr;
+		grid-auto-rows: 0px;
+		height: 60px;
+		font-size: 9px;
+	}
+	.logo>img{
+		width: 80px;
+		padding: 0px;
+	}
+	.navbar_menu{
+		display: none;
+	}
+	.lang_search{
+		display: inline;
+	}
+	.lang_search > ul > li a{
+		padding: 21px 15px;
+	}
+	.header_info{
+		grid-template-columns: 0fr;
+		grid-template-rows: 3fr 0fr 3fr;
+		margin: 30px 0px 0px 0px;
+	}
+	.header_descr{
+		
+	}
+	.header_descr h3{
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 20px;
+	}
+	.header_descr h2{
+		line-height: 50px;
+		font-size: 60px;
+	}
+	.header_descr p{
+		line-height: 16px;
+		margin: 15px 0px;
+	}
+	.personally_descr{
+		grid-template-columns: 0fr;
+		grid-template-rows: 0fr 1fr 1fr 0fr;
+	}
+	.personally_descr_h2{
+		line-height: 0;
+	}
+	.personally_descr_h2>h2{
+		font-size: 50px;
+	}
+	.personally_descr_h2>h3{
+		font-size: 28px;
+		margin-top: 50px;
+		line-height: 30px;
+	}
+	.personally_block{
+		grid-template-columns: 1fr;
+		grid-template-rows: 0fr 0fr;
+	}
+	.travel_block, .travel_block1, .travel_block2, .travel_block3, .travel_block4, .travel_block5, .travel_block6{
+		width: 320px;
+		height: 320px;
+		min-width: 0px;
+		min-height: 0px;
+	}
+	.btn{
+		grid-template-columns: none;
+		margin: -10px 25px;
+	}
+	.hidden_descr_travel_block{
+		font-size: 30px;
+	}
+	.africa{
+		grid-template-rows: none;
+		padding: 0;
+	}
+	.africa_descr{
+		grid-template-columns: 0fr 0fr 0fr;
+	}
+	.center_block_africa{
+		text-align: left;
+	}
+	.center_block_africa>h2{
+		line-height: 45px;
+		font-size: 50px;
+	}
+	.center_block_africa>p{
+		margin: 0px;
+		margin-top:20px;
+	}
+	.africa_menu{
+		grid-template-columns: none;
+	}
+	.africa_price{
+		width: 320px;
+		height: 130px;
+	}
+	.africa_price>span{
+		margin: 30px 0px 0px 30px;
+	}
+	.kenya_descr{
+		padding: 0;
+	}
+	.african_man{
+		margin: 0;
+	}
+	.african_man>img{
+		width: 0;
+	}
+	.north_america_head_descr>h2{
+		font-size: 52px;
+		line-height: 45px;
+	}
+	.north_america_head_descr>p{
+		padding: 30px 0px 0px 0px;
+	}
+	.american_block{
+		grid-template-columns: 1fr;
+		grid-template-rows: 0fr 0fr;
+	}
+	.travel_american_block, .travel_american_block1, .travel_american_block2, .travel_american_block3, .travel_american_block4, .travel_american_block5, .travel_american_block6{
+		width: 320px;
+		height: 320px;
+		min-width: 0px;
+		min-height: 0px;
+	}
+	.hidden_descr_travel_american_block{
+		font-size: 30px;
+	}
+	.north_america_descr{
+		grid-template-columns: 0fr 2fr 0fr;
+		margin-bottom: 170px;
+	}
+	.north_america{
+		grid-template-rows: none;
+	}
+	.head_taiwan_descr{
+		grid-template-columns: none;
+	}
+	.taiwan_menu{
+		margin: 0;
+		grid-template-columns: none;
+	}
+	.taiwan_menu_descr{
+		width: 320px;
+		height: 240px;
+	}
+	.final_section_nav{
+		width: 320px;
+	}
+	.final_section_nav_menu{
+		grid-template-columns: 1fr 1fr 1fr;
+		width: 320px;
+		height: 60px;
+	}
+	.final_section_nav_menu>div{
+		display: none;
+	}
+	.final_section_nav_menu_li>a{
+		padding: 7px;
+	}
+	.final_descr{
+		text-align: left;
+	}
+	.taiwan_price{
+		margin-bottom: 100px;
+	}
+	.final_descr>p{
+		padding: 0;
+		margin: 15px 15px;
+	}
+	.final_descr>h2{
+		font-size: 68px;
+		line-height: 72px;
+		margin: 30px 0px;
+	}
+	.final_section{
+		grid-template-rows: 0.2fr 1fr;
+	}
+	.mail_form{
+		margin: 35px;
+	}
+	.partners{
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.logotip_partners{
+		width: 65px;
+	}
+	footer{
+		min-height: 300px;
+	}
+	.hidden_descr_travel_block, .hidden_descr_travel_american_block{
+		width: 320px;
+	}
+	.kenya{
+		width: 320px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
